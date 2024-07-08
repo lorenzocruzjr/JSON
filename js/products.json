@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"image": "products_images/bike_01.jpg",
+		"name": "City Bike",
+		"price": "12,000",
+		"stock": 2,
+		"productCode": "B101"
+	},
+	{
+		"id": 2,
+		"image": "products_images/bike_02.jpg",
+		"name": "Dessert Bike",
+		"price": "25,000",
+		"stock": 8,
+		"productCode": "B102"
+	},
+	{
+		"id": 3,
+		"image": "products_images/bike_03.jpg",
+		"name": "Show Bike",
+		"price": "35,000",
+		"stock": 6,
+		"productCode": "B103"
+	},
+	{
+		"id": 4,
+		"image": "products_images/guitar_01.jpg",
+		"name": "Gibson",
+		"price": "50,000",
+		"stock": 5,
+		"productCode": "G101"
+	},
+	{
+		"id": 5,
+		"image": "products_images/guitar_02.jpg",
+		"name": "Epiphone",
+		"price": "80,000",
+		"stock": 1,
+		"productCode": "G102"
+	},
+	{
+		"id": 6,
+		"image": "products_images/guitar_03.jpg",
+		"name": "Hammer Edition",
+		"price": "150,000",
+		"stock": 2,
+		"productCode": "G103"
+	}
+]

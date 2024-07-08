@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+table th {
+	padding: 10px 0;
+	background-color: #757f8c;
+	border:  thin solid #d4d4d4;
+  color: #fff;
+}
+
+table td {
+	width: 18%;
+	padding: 10px;
+	border:  thin solid #d4d4d4;
+	text-align: center;
+	background-color: #fff;
+}
+
+table img {
+	width: 70%;
+}
+
+table td.total-price {
+	font-weight: bold;
+	font-size: 22px;
+}
+table a {
+  padding: 10px 15px;
+	text-decoration: none;
+	color: darkred;
+	background-color: #ffecef;
+}
+table a:active {
+	color:  #00FF00;
+	background-color: #ccf4d6;
+}
+
+/* table select {
+	padding: 10px;
+	width:  200px;
+	font-size: 16px;
+	border: thin solid #d4d4d4;
+	background-color: transparent;
+} */
+
+/* table select:focus {
+	outline: none;
+} */
+
+table img{
+	width:  60%;
+}
