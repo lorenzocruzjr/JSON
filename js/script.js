@@ -1,9 +1,9 @@
 
 fetch("js/products.json")
-.then(function(response){
+.then(function(response) {
 	return response.json();
 })
-.then(function(products){
+.then(function(products) {
 	let placeholder = document.querySelector("#data-output");
 	let out = "";
 	for(let product of products){
