@@ -1,54 +1,113 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
+/* Body */
 body {
-	font-family: sans-serif;
-	min-height: 100vh;
-	color: #555;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #cbcaca;
 }
 
-table {
-	width: 60%;
-	margin: 0 auto;
+/* mainContainer */
+.mainContainer {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
 }
 
-table th {
-	padding: 10px 0;
-	background-color: #757f8c;
-	border:  thin solid #d4d4d4;
-	color: #fff;
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 40px;
 }
 
-table td {
-	width: 18%;
-	padding: 10px;
-	border:  thin solid #d4d4d4;
-	text-align: center;
-	background-color: #fff;
+/* searchBar */
+.searchBarContainer {
+  text-align: right;
 }
 
-table img {
-	width: 70%;
+.searchHere {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
 }
 
-table td.total-price {
-	font-weight: bold;
-	font-size: 22px;
-}
-table a {
-	padding: 10px 15px;
-	text-decoration: none;
-	color: darkred;
-	background-color: #ffecef;
-}
-table a:active {
-	color:  #00FF00;
-	background-color: #ccf4d6;
+.searchHere::placeholder {
+  color: #888;
+  font-style: italic;
 }
 
-table img{
-	width:  60%;
+input:focus-visible {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(167, 45, 45, 0.1);
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(167, 45, 45, 0.1);
+}
+
+p.noResults {
+  color: #ff1010;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* dataProfile */
+.dataProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(167, 45, 45, 0.1);
+}
+
+.dataProfile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  order: 2;
+}
+
+.profileDetails {
+  flex: 1;
+}
+
+.profileDetails h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profileDetails p {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    width: 80%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .searchHere {
+    width: 80%;
+    font-size: 12px;
+  }
+  .dataProfile img {
+    width: 50px;
+    height: 50px;
+  }
+  p.noResults {
+    font-size: 25px;
+  }
+  .profileDetails h2 {
+    font-size: 14px;
+  }
+  .profileDetails p {
+    font-size: 10px;
+  }
 }

@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/styles.css">
-	<title>Render JSON data in HTML</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Purposes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="header">
+        <h1>User Profiles</h1>
+      </div>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Product Image</th>
-				<th>Product Name</th>
-				<th>Price</th>
-				<th>Stock</th>
-				<th>Product code</th>
-			</tr>
-		</thead>
-		<tbody id="data-output">
-		</tbody>
-	</table>
+      <div class="searchBarContainer">
+        <div class="searchBarInner">
+          <input type="text" id="searchBar" class="searchHere" placeholder="Search by: Name, Address, Email or Job Position"/>
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
 
-	<script src="js/script.js"></script>
-</body>
+      <div id="userProfiles"></div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
